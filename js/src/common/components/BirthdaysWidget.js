@@ -1,10 +1,10 @@
-import Widget from 'flarum/extensions/afrux-forum-widgets-core/common/components/Widget';
 import app from 'flarum/forum/app';
 import LoadingIndicator from 'flarum/common/components/LoadingIndicator';
 import Tooltip from 'flarum/common/components/Tooltip';
-import avatar from 'flarum/common/helpers/avatar';
 import Link from 'flarum/common/components/Link';
+import avatar from 'flarum/common/helpers/avatar';
 
+import Widget from 'flarum/extensions/afrux-forum-widgets-core/common/components/Widget';
 export default class BirthdaysWidget extends Widget {
   oninit(vnode) {
     super.oninit(vnode);
