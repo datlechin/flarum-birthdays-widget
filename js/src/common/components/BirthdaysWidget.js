@@ -65,6 +65,10 @@ export default class BirthdaysWidget extends Widget {
       })
       .then((users) => {
         this.setResults(users);
+      })
+      .catch(() => {
+        this.loading = false;
+        m.redraw();
       });
   }
 
